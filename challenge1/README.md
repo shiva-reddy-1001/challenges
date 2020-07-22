@@ -2,6 +2,21 @@
 
 ![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
 
+## Screenshots of Challenge 1 attempted by me
+
+ ![Design preview for the Article preview component coding challenge](./Screenshots/Screenshot(33).jpg)
+
+
+ ![Design preview for the Article preview component coding challenge](./Screenshots/Screenshot(34).jpg)
+
+
+ ![Design preview for the Article preview component coding challenge](./Screenshots/Screenshot_2020-07-22-22-22-38-796_com.android.chrome.jpg.jpg)
+
+
+ ![Design preview for the Article preview component coding challenge](./Screenshots/Screenshot_2020-07-22-22-22-44-322_com.android.chrome.jpg.jpg)
+
+
+
 ## Welcome! 👋
 
 **To do this challenge, you need a basic understanding of HTML, CSS and a tiny bit of JavaScript.**
