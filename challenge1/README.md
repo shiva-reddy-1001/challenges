@@ -4,16 +4,16 @@
 
 ## Screenshots of Challenge 1 attempted by me
 
- ![Design preview for the Article preview component coding challenge](./Screenshots/Screenshot(33).jpg)
+ ![desktop preview for the Article preview component coding challenge](./Screenshots/desktop1.png)
 
 
- ![Design preview for the Article preview component coding challenge](./Screenshots/Screenshot(34).jpg)
+ ![ preview for the Article preview component coding challenge](./Screenshots/desktop2.png)
 
 
- ![Design preview for the Article preview component coding challenge](./Screenshots/Screenshot_2020-07-22-22-22-38-796_com.android.chrome.jpg.jpg)
+ ![Design preview for the Article preview component coding challenge](./Screenshots/mobile1.jpg)
 
 
- ![Design preview for the Article preview component coding challenge](./Screenshots/Screenshot_2020-07-22-22-22-44-322_com.android.chrome.jpg.jpg)
+ ![Design preview for the Article preview component coding challenge](./Screenshots/mobile2.jpg)
 
 
 
