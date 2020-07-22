@@ -10,10 +10,10 @@
  ![ preview for the Article preview component coding challenge](./Screenshots/desktop2.png)
 
 
- ![Design preview for the Article preview component coding challenge](./Screenshots/mobile1.jpg)
+ ![Design preview for the Article preview component coding challenge](./Screenshots/mobile1.jpeg)
 
 
- ![Design preview for the Article preview component coding challenge](./Screenshots/mobile2.jpg)
+ ![Design preview for the Article preview component coding challenge](./Screenshots/mobile2.jpeg)
 
 
 
