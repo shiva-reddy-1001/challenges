@@ -1,0 +1,218 @@
+@media only screen and (min-width: 600px){
+body{
+  background-color: #ECF2F8;
+  font-size: 13px;
+}
+.maindiv{
+  height: 33.33vh;
+  margin:33.33vh auto;
+  width: 49%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 20px 20px rgba(0,0,0,0.08);
+}
+.drawer{
+  height: 100%;
+  width: 40%;
+  float:left;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-image: url("./images/drawers.jpg");
+  background-size: cover;
+}
+.content{
+  position: relative;
+  float: right;
+  box-sizing: border-box;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 100%;
+  width: 60%;
+  padding: 12px 20px 0 6.5%;
+}
+#head0{
+  font-size: 1.5em;
+  font-family: 'Manrope';
+  font-weight: 700;
+  margin: 10px 0 7px 0px;
+  color: #4E5765;
+}
+p{
+  font-family: 'Manrope';
+  font-size: 13px;
+  font-weight: 500;
+  color: #6D7F97;
+}
+.profile{
+  width: 32px;
+  height: 32px;
+  float: left;
+  background-image: url("./images/avatar-michelle.jpg");
+  background-size: cover;
+  border-radius: 100%;
+}
+.name{
+  font-family: 'Manrope';
+  font-weight: 700;
+  float: left;
+  padding-left: 24px;
+  color: #4E5765;
+}
+.date{
+  font-family: 'Manrope';
+  font-weight: 500;
+  color: #6D7F97;
+}
+#share{
+  width: 25px;
+  height: 25px;
+  bottom: 14%;
+  right: 15%;
+  position: absolute;
+  background-color: #ECF2F8;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 25px;
+  color: #4E5765;
+  border: none;
+  stroke: 0px;
+  outline: transparent;
+}
+#share:hover{
+  background-color: #4E5765;
+  color:#fff;
+}
+#ttid{
+  visibility: hidden;
+}
+.ttclass {
+  bottom: 35%;
+  left: 55%;
+  height: 14%;
+  width: 50%;
+  font-size: 1.25em;
+  box-shadow: 2px 10px 10px rgba(0,0,0,0.08);
+  padding: 15px 0 0 0;
+  background-color: #4E5765;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+}
+.ttclass::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #4E5765 transparent transparent transparent;
+}
+}
+
+@media only screen and (max-width: 600px){
+  body{
+    background-color: #ECF2F8;
+    font-size: 13px;
+  }
+  .maindiv{
+    height:75vh;
+    margin: 12.5vh auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 20px 20px rgba(0,0,0,0.08);
+  }
+
+  .drawer{
+    height: 40%;
+    width: 100%;
+    float:left;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url("./images/drawers.jpg");
+    background-size: cover;
+  }
+  .content{
+    position: relative;
+    float: right;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 60%;
+    width: 100%;
+    padding:16px 40px 0 40px;
+  }
+  #head0{
+    font-size: 1.4em;
+    font-family: 'Manrope';
+    font-weight: 700;
+    margin: 10px 0 7px 0;
+    color: #4E5765;
+  }
+  p{
+    font-family: 'Manrope';
+    font-size: 13px;
+    font-weight: 500;
+    color: #6D7F97;
+  }
+  .profile{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: 16px;
+    background-image: url("./images/avatar-michelle.jpg");
+    background-size: cover;
+    border-radius: 100%;
+  }
+  .name{
+    font-family: 'Manrope';
+    font-weight: 700;
+    position: absolute;
+    bottom: 16px;
+    padding-left: 15%;
+    color: #4E5765;
+  }
+  .date{
+    font-family: 'Manrope';
+    font-weight: 500;
+    color: #6D7F97;
+  }
+  #share{
+    width: 25px;
+    height: 25px;
+    bottom: 18px;
+    right: 24px;
+    position: absolute;
+    background-color: #ECF2F8;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 25px;
+    color: #4E5765;
+    border: none;
+    outline:transparent;
+  }
+  #share:hover{
+    background-color: #6D7F97;
+    color: white;
+  }
+  .ttclass {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 1.25em;
+    box-shadow: 2px 10px 10px rgba(0,0,0,0.08);
+    box-sizing: border-box;
+    padding: 5% 0 5% 15%;
+    height: 20%;
+    background-color: #4E5765;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+  }
+  #ttid{
+    visibility: hidden;
+  }
+}
