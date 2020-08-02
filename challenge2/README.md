@@ -4,8 +4,8 @@
 Screenshots of Work:
 ![Design preview for the Insure landing page coding challenge](./Screenshots/1.png)
 ![Design preview for the Insure landing page coding challenge](./Screenshots/2.png)
-![Design preview for the Insure landing page coding challenge](./Screenshots/3.jpg)
-![Design preview for the Insure landing page coding challenge](./Screenshots/4.jpg)
+![Design preview for the Insure landing page coding challenge](./Screenshots/3.jpeg)
+![Design preview for the Insure landing page coding challenge](./Screenshots/4.jpeg)
 
 
 
