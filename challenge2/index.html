@@ -1,42 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <title>Challenge 2 | Insure landing page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: #3e52a3;
-      }
-    </style>
-  </head>
-  <body>
-    How we work Blog Account View plans Humanizing your insurance. Get your life
-    insurance coverage easier and faster. We blend our expertise and technology
-    to help you find the plan that’s right for you. Ensure you and your loved
-    ones are protected. View plans We’re different Snappy Process Our
-    application process can be completed in minutes, not hours. Don’t get stuck
-    filling in tedious forms. Affordable Prices We don’t want you worrying about
-    high monthly costs. Our prices may be low, but we still offer the best
-    coverage possible. People First Our plans aren’t full of conditions and
-    clauses to prevent payouts. We make sure you’re covered when you need it.
-    Find out more about how we work How we work Our company How we work Why
-    Insure? View plans Reviews Help me FAQ Terms of use Privacy policy Cookies
-    Contact Sales Support Live chat Others Careers Press Licenses
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <title>Insure landing page</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css"
+    integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <nav>
+  <div class='logo'><img class='title' src='images/logo.svg'></div>
+  <ul class='navi' id='navi'>
+    <li><a href="#">HOW WE WORK</a></li>
+    <li><a href="#">BLOG</a></li>
+    <li><a href="#">ACCOUNT</a></li>
+    <li><button class='navi1'>VIEW PLANS</button></li>
+  </ul>
+  <div class='burger'><img id ='burger' style='width:8vw;height: 4vh;'src='images/icon-hamburger.svg'></div>
+  </nav>
+  <div class='sec1' id='sec1'>
+  <div class='sec11'>
+  <div class='sec22'>
+  <div class='sec33'>
+  <div class='tBorder'></div>
+  <h1>Humanizing</h1><h1>your insurance.</h1><p>Get your safe insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.</p>
+  <button class='tbutton'>VIEW PLANS</button>
+  </div></div>
+  <div class='sec44'>
+  <div id='int'></div>
+  </div></div></div>
+  <div class='title1'>
+  <div class='Border1'></div>
+  <h1 class='Title2'>We’re different</h1>
+  </div>
+  <div class='About'>
+  <div class='Item'>
+  <img src='images/icon-snappy-process.svg'>
+  <h2>Snappy Process</h2><p>Our appacation process can be completed in minutes, not hours. Don’t get stuck filang in tedious forms.</p>
+  </div>
+  <div class='Item'>
+  <img src='images/icon-affordable-prices.svg'>
+  <h2>Affordable Prices</h2><p>We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
+  </div>
+  <div class='Item'>
+  <img src='images/icon-people-first.svg'>
+  <h2>People First</h2><p>Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.</p>
+  </div></div></div>
+  <div class='find' id='find'>
+  <div>
+  <h2>Find out more</h2><h2>about how we work</h2>
+  </div>
+  <button>HOW WE WORK</button>
+  </div>
+  <div class='footer'>
+  <div class='icons'>
+  <img class='icons1' src='images/logo.svg'>
+  <div class='icons2'><a><img  src='images/icon-facebook.svg'></a><a><img src='images/icon-twitter.svg'></a><a><img src='images/icon-pinterest.svg'></a><a><img src='images/icon-instagram.svg'></a></div></div>
+  <div class='Border2'></div>
+  <div class='fm'>
+  <div class='fmBox'><a class='fmHead'>OUR COMPANY</a><a>HOW WE WORK</a><a>WHY INSURE?</a><a>VIEW PLANS</a><a>REVIEWS</a></div>
+  <div class='fmBox'><a class='fmHead'>Help me</a><a>FAQ</a><a>TERMS OF USE</a><a>PRIVACY POLICY</a><a>COOKIES</a></div>
+  <div class='fmBox'><a class='fmHead'>CONTACT</a><a>SALES</a><a>SUPPORT</a><a>LIVE CHAT</a></div>
+  <div class='fmBox'><a class='fmHead'>OTHERS</a><a>CAREERS</a><a>PRESS</a><a>LICENSES</a></div>
+  </div></div>
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Shiva Reddy</a>.
+  </div>
+</body>
+<script>
+  const bars = document.getElementById('burger');
+  const nav = document.querySelector('.navi');
+  bars.addEventListener('click', mobilemenu);
+  function mobilemenu(){
+  if(bars.getAttribute("src") == "images/icon-hamburger.svg")
+  {
+  bars.src = "images/icon-close.svg";
+  }
+  else
+  {
+  bars.src = "images/icon-hamburger.svg";
+  }
+  nav.classList.toggle('nav-on');
+    }
+  </script>
 </html>

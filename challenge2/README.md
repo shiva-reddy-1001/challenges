@@ -1,6 +1,12 @@
 # Challenge1 - Insure landing page
 
 ![Design preview for the Insure landing page coding challenge](./design/desktop-preview.jpg)
+Screenshots of Work:
+![Design preview for the Insure landing page coding challenge](./Screenshots/1.png)
+![Design preview for the Insure landing page coding challenge](./Screenshots/2.png)
+![Design preview for the Insure landing page coding challenge](./Screenshots/3.jpg)
+![Design preview for the Insure landing page coding challenge](./Screenshots/4.jpg)
+
 
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
